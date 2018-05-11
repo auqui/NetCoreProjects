@@ -1,1 +1,3 @@
 # NetCoreProjects
+
+Hello from VSCode
