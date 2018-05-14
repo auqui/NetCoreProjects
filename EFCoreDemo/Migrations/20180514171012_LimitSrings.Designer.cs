@@ -11,9 +11,10 @@ using System;
 namespace EFCoreDemo.Migrations
 {
     [DbContext(typeof(EFCoreDemoContext))]
-    partial class EFCoreDemoContextModelSnapshot : ModelSnapshot
+    [Migration("20180514171012_LimitSrings")]
+    partial class LimitSrings
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
